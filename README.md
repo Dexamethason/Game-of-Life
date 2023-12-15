@@ -35,3 +35,31 @@ Mail with:
 1. short screen recording demonstrating the new features
 2. Linked code
 3. Short description of the changes. Which design patterns you used and how you applied them. 
+
+## The code uses the following libraries:
+- `Pygame:` Has modules designed for writing video games.
+
+- `Numpy:` It's adding support for multi-dimensional arrays and matrices.
+
+- `Time:` The time module used for real-time simulating.
+
+- `Tickle:` It's used to save and load the game state.
+
+## Classes & Methods
+- `__new__(cls):` Method called when object is created. It makes sure that we have one instance of the class.
+
+- `initialize():` Initializes the game parameters such as screen & grid dimensions, colors, buttons etc.
+
+- `draw_button():` Draws the pause/resume button on the screen.
+
+- `draw_save_button():` Draws the "Save" button on the screen.
+
+- `draw_load_button():` Draws the "Load" button on the screen.
+
+- `draw_grid():` Draws the grid on the screen.
+
+- `next_generation():` Calculates the next gen of the Game of Life.
+
+- `draw_cells():` Draws the living cells.
+
+- `run():` Method running the game loop.
